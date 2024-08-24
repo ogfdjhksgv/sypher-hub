@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "sypher",
-    LoadingTitle = "sypher",
-    LoadingSubtitle = "by Gusytav",
+    Name = "sypher hub",
+    LoadingTitle = "sypher hub",
+    LoadingSubtitle = "by not telling hehe",
     ConfigurationSaving = {
        Enabled = true,
        FolderName = nil, -- Create a custom folder for your hub/game
@@ -14,7 +14,7 @@ local Window = Rayfield:CreateWindow({
        Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
        RememberJoins = true -- Set this to false to make them join the discord every time they load it up
     },
-    KeySystem = true, -- Set this to true to use our key system
+    KeySystem = false, -- Set this to true to use our key system
     KeySettings = {
        Title = "bomber",
        Subtitle = "Key System von Gustav",
@@ -31,7 +31,7 @@ local Window = Rayfield:CreateWindow({
 
  Rayfield:Notify({
     Title = "The script has been Executed correctly",
-    Content = "gut gemacht",
+    Content = "ja fein gemacht",
     Duration = 6.5,
     Image = 4483362458,
     Actions = { -- Notification Buttons
@@ -54,7 +54,7 @@ local Window = Rayfield:CreateWindow({
 local Button = MainTab:CreateButton({
    Name = "bedwars",
    Callback = function()
-   loadstring(game:HttpGet("https://rawscripts.net/raw/BedWars-Epilogue-voidware-vape-v4-15982"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
    end,
 })
 
@@ -73,8 +73,29 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "EH",
+   Name = "Emergency Hamburg",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Kanistay/Roblox/main/skibidibom'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Arsenal",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/8ysy7ENG",true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Counter Blox",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ogfdjhksgv/galaxy-skid/main/galaxy%20skid",true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Counter Blox Skin Changer",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Funswapper/Funswapper-Script/main/Launcher.lua", true))()
    end,
 })
